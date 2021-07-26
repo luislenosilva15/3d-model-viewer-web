@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+
+        <!-- <h1>Aqui</h1> -->
+
+
+
+        <model-viewer src="sofa.glb" camera-controls ar ar-modes="scene-viewer webxr quick-look" exposure="0.69"
+            shadow-softness="1">
+
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+        </model-viewer>
+
+    </div>
+
+    <style>
+        model-viewer {
+            height: 85vh;
+            width: 100%;
+
+
+        }
+    </style>
+
+</body>
+
+</html>
